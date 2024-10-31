@@ -8,8 +8,6 @@ export const Overlay = styled(Dialog.Overlay)`
   height: 100vh;
   inset: 0;
   background: rgba(0, 0, 0, 0.75);
-
-
 `;
 
 export const Content = styled(Dialog.Content)`
@@ -55,6 +53,7 @@ export const Content = styled(Dialog.Content)`
 
       &:hover {
         background: ${props => props.theme["yellow-700"]};
+        border: 1px solid ${props => props.theme["yellow-700"]};
         transition: background-color 0.2s;
       }
     }
@@ -109,7 +108,6 @@ export const TransactionTypeButton = styled(RadioGroup.Item) <TransactionTypeBut
       color: ${props => props.theme.white};
     }
   }
-
 
   ${props => css`
     &:focus {
