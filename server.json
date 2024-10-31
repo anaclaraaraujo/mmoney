@@ -6,7 +6,7 @@
       "type": "income",
       "category": "Venda",
       "price": 14000,
-      "createdAt": "2022-07-29T19:36:44.505Z"
+      "createdAt": "2024-07-29T19:36:44.505Z"
     },
     {
       "id": 2,
@@ -14,15 +14,23 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 60,
-      "createdAt": "2022-07-29T19:30:44.505Z"
+      "createdAt": "2024-07-29T19:30:44.505Z"
     },
     {
       "id": 3,
-      "description": "Ignite Rocketseat",
+      "description": "Churrasco - Angus",
       "type": "outcome",
-      "category": "Educação",
-      "price": 1980,
-      "createdAt": "2022-07-29T19:24:44.505Z"
+      "category": "Alimentação",
+      "price": 100,
+      "createdAt": "2024-10-17T19:24:44.505Z"
+    },
+    {
+      "id": "2c8c",
+      "description": "Desenvolvimento de UI Designer",
+      "category": "Venda",
+      "price": 1230,
+      "type": "income",
+      "createdAt": "2024-10-31T22:01:14.318Z"
     }
   ]
 }
